@@ -72,4 +72,4 @@ touch DisplayEnergy/ModEntry.cs DisplayEnergy/manifest.json
 
 _DisplayEnergy_ does exactly the same as the
 [EnergyCount](https://github.com/Crystallyne/EnergyCount) mod, except that it
-works for local split-screen. Thank you _Crystallyne_ for creating that mod.
+supports split-screen. Thank you _Crystallyne_ for creating that mod.
