@@ -67,7 +67,7 @@ touch DisplayEnergy/ModEntry.cs DisplayEnergy/manifest.json
 4. The mod should now be installed in _Stardew Valley_. Start the game to test the mod.
 5. When satisfied with the changes, update the [semantic version](https://semver.org/) in the [mod manifest](./DisplayEnergy/manifest.json) and push all changes.
 6. Create a release with [_GitHub CLI_](https://cli.github.com/): `gh release create VERSION_NUMBER ./DisplayEnergy/bin/Debug/**/*.zip`
-7. Download the ZIP archive from the new release and upload it to [ModDrop](https://www.moddrop.com).
+7. Download the ZIP archive _DisplayEnergy.VERSION_NUMBER.zip_ from the new release and upload it to [ModDrop](https://www.moddrop.com).
 
 ## Acknowledgements
 
