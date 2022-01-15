@@ -11,7 +11,8 @@ guide](https://stardewvalleywiki.com/Modding:Player_Guide) to learn how to
 install _SMAPI_ mods.
 
 This mod is available on
-[ModDrop](https://www.moddrop.com/stardew-valley/mods/1087175-displayenergy).
+[ModDrop](https://www.moddrop.com/stardew-valley/mods/1087175-displayenergy) and
+[NexusMods](https://www.nexusmods.com/stardewvalley/mods/10662).
 
 ## How This Mod Was Created
 

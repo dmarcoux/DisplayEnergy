@@ -6,5 +6,5 @@
   "UniqueID": "dmarcoux.DisplayEnergy",
   "EntryDll": "DisplayEnergy.dll",
   "MinimumApiVersion": "3.0.0",
-  "UpdateKeys": ["GitHub:dmarcoux/DisplayEnergy", "ModDrop:1087175"]
+  "UpdateKeys": ["GitHub:dmarcoux/DisplayEnergy", "ModDrop:1087175", "Nexus:10662"]
 }
