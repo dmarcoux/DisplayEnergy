@@ -72,5 +72,5 @@ touch DisplayEnergy/ModEntry.cs DisplayEnergy/manifest.json
 ## Acknowledgements
 
 _DisplayEnergy_ does exactly the same as the
-[EnergyCount](https://github.com/Crystallyne/EnergyCount) mod, except that it
-supports split-screen. Thank you _Crystallyne_ for creating that mod.
+[EnergyCount](https://www.nexusmods.com/stardewvalley/mods/4272) mod, except
+that it supports split-screen. Thank you _Crystallyne_ for creating that mod.
