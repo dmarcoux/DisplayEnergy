@@ -7,13 +7,13 @@ max energy. This mod supports split-screen.
 ## How to Install This Mod
 
 Refer to the [_SMAPI_ player
-guide](https://stardewvalleywiki.com/Modding:Player_Guide/) to learn how to
+guide](https://stardewvalleywiki.com/Modding:Player_Guide) to learn how to
 install _SMAPI_ mods.
 
 ## How This Mod Was Created
 
 Refer to the [_SMAPI_ modder
-guide](https://stardewvalleywiki.com/Modding:Modder_Guide/) to learn how to
+guide](https://stardewvalleywiki.com/Modding:Modder_Guide) to learn how to
 create _SMAPI_ mods. This is a simplified version of the guide and without using
 any GUI from an IDE like _Visual Studio_.
 
@@ -53,7 +53,7 @@ rm -f DisplayEnergy/Class1.cs DisplayEnergy/MyClass.cs
 dotnet add DisplayEnergy package Pathoschild.Stardew.ModBuildConfig --version 4.0.0
 ```
 
-7. Create the _ModEntry.cs_ and _manifest.json_ files (see examples in the [_SMAPI_ modder guide](https://stardewvalleywiki.com/Modding:Modder_Guide/)):
+7. Create the _ModEntry.cs_ and _manifest.json_ files (see examples in the [_SMAPI_ modder guide](https://stardewvalleywiki.com/Modding:Modder_Guide)):
 
 ```bash
 touch DisplayEnergy/ModEntry.cs DisplayEnergy/manifest.json
