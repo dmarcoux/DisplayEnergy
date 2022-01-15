@@ -65,6 +65,8 @@ touch DisplayEnergy/ModEntry.cs DisplayEnergy/manifest.json
 2. With [podman-compose](https://github.com/containers/podman-compose), spin up development environment: `podman-compose up`.
 3. Once inside the container, change whatever needs to change, then build the project with `dotnet build`.
 4. The mod should now be installed in _Stardew Valley_. Start the game to test the mod.
+5. When satisfied with the changes, update the [semantic version](https://semver.org/) in the [mod manifest](./DisplayEnergy/manifest.json) and push all changes.
+6. Create a release with [_GitHub CLI_](https://cli.github.com/): `gh release create VERSION_NUMBER`
 
 ## Acknowledgements
 
