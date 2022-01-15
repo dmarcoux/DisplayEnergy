@@ -6,7 +6,7 @@ using StardewModdingAPI.Events;
 using StardewModdingAPI.Utilities;
 using StardewValley;
 
-namespace EnergyCountTest
+namespace DisplayEnergy
 {
     /// <summary>The mod entry point.</summary>
     public class ModEntry : Mod
