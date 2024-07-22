@@ -5,7 +5,7 @@
   inputs = {
     # Use https://www.nixhub.io/ to easily find the exact commit to use in order to pin an input (and its packages) to a specific version
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
-    nixpkgs_dotnet_5.url = "github:nixos/nixpkgs?ref=6b5019a48f876f3288efc626fa8b70ad0c64eb46";
+    nixpkgs_dotnet_sdk.url = "github:nixos/nixpkgs?ref=7d0ed7f2e5aea07ab22ccb338d27fbe347ed2f11";
     nixpkgs_just.url = "github:nixos/nixpkgs/ab82a9612aa45284d4adf69ee81871a389669a9e";
   };
 
@@ -15,7 +15,7 @@
     pkgs = import nixpkgs { system = "${system}"; config.allowUnfree = true; };
 
     # .NET SDK
-    dotnet_sdk = inputs.nixpkgs_dotnet_5.legacyPackages.${system}.dotnetCorePackages.sdk_5_0;
+    dotnet_sdk = inputs.nixpkgs_dotnet_sdk.legacyPackages.${system}.dotnetCorePackages.sdk_6_0;
 
     # https://github.com/casey/just
     just = inputs.nixpkgs_just.legacyPackages.${system}.pkgs.just;

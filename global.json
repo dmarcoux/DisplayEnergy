@@ -2,7 +2,7 @@
 // Comments are supported in this JSON file. Refer to the documentation above
 {
   "sdk": {
-    "version": "5.0.408",
-    "rollForward": "disable"
+    "rollForward": "disable",
+    "version": "6.0.405"
   }
 }

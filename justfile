@@ -22,6 +22,6 @@ generateGlobalJson:
   @#
   # Without removing global.json, the dotnet CLI won't execute commands due to a mismatch in the .NET SDK version. So global.json has to be removed first.
   rm --force global.json
-  dotnet new globaljson # TODO .NET 6: --roll-forward disable
+  dotnet new globaljson --roll-forward disable
   # Mention documentation in comments at the top of global.json
   sed -i -e '1s|^|// Documentation: https://learn.microsoft.com/en-us/dotnet/core/tools/global-json\n// Comments are supported in this JSON file. Refer to the documentation above\n|' global.json
