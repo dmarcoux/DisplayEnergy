@@ -15,6 +15,10 @@ code ide="rider":
 build:
   dotnet build
 
+[doc("Format all code in the solution")]
+format:
+  dotnet format
+
 [doc("Generate global.json after manually changing the .NET SDK package in `flake.nix` or updating `flake.lock`")]
 generateGlobalJson:
   @# The .NET SDKs have been updated when manually changing the packages in `flake.nix` or by recreating `flake.lock` to update

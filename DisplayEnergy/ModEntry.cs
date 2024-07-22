@@ -1,6 +1,8 @@
 using Microsoft.Xna.Framework;
+
 using StardewModdingAPI;
 using StardewModdingAPI.Events;
+
 using StardewValley;
 using StardewValley.Extensions;
 
@@ -30,7 +32,8 @@ namespace dmarcoux.Stardew.DisplayEnergy
         {
             int textRightPosition = (Game1.showingHealth) ? 265 : 215;
 
-            if(!Game1.eventUp) {
+            if (!Game1.eventUp)
+            {
                 Game1.spriteBatch.DrawString(Game1.dialogueFont, $"{(int)Game1.player.Stamina}/{Game1.player.maxStamina}", new Vector2(Game1.graphics.GraphicsDevice.Viewport.GetTitleSafeArea().Right - textRightPosition, Game1.graphics.GraphicsDevice.Viewport.GetTitleSafeArea().Bottom - 60), Color.White);
             }
         }
