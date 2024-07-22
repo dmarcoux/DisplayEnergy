@@ -100,8 +100,14 @@ just build
 
 # How to Release a New Version
 
-1. Update the [semantic version](https://semver.org/) in the [mod manifest](./DisplayEnergy/manifest.json) and push all changes.
+1. Update the [semantic version](https://semver.org/) in the [mod manifest](./DisplayEnergy/manifest.json) and the [project file](./DisplayEnergy/DisplayEnergy.csproj).
 
-2. Create a release with [_GitHub CLI_](https://cli.github.com/): `gh release create VERSION_NUMBER ./DisplayEnergy/bin/Debug/**/*.zip`
+2. Push all changes.
 
-3. Download the ZIP archive _DisplayEnergy.VERSION_NUMBER.zip_ from the new release and upload it to [ModDrop](https://www.moddrop.com/stardew-valley/mods/1087175-displayenergy) / [NexusMods](https://www.nexusmods.com/stardewvalley/mods/10662).
+3. Create a release with [_GitHub CLI_](https://cli.github.com/):
+
+```bash
+VERSION=$(cat DisplayEnergy/manifest.json | jq --raw-output '.Version') gh release create $VERSION "DisplayEnergy/bin/Debug/net6.0/DisplayEnergy $VERSION.zip"
+```
+
+4. Download the ZIP archive _DisplayEnergy.VERSION_NUMBER.zip_ from the new release and upload it to [ModDrop](https://www.moddrop.com/stardew-valley/mods/1087175-displayenergy) / [NexusMods](https://www.nexusmods.com/stardewvalley/mods/10662).
