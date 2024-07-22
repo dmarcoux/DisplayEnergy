@@ -452,3 +452,7 @@ $RECYCLE.BIN/
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+# Paths from the environment variables DOTNET_CLI_HOME and NUGET_PACKAGES
+.net_cli_home
+.nuget_packages

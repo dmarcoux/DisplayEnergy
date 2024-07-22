@@ -1,0 +1,8 @@
+// Documentation: https://learn.microsoft.com/en-us/dotnet/core/tools/global-json
+// Comments are supported in this JSON file. Refer to the documentation above
+{
+  "sdk": {
+    "version": "5.0.408",
+    "rollForward": "disable"
+  }
+}
