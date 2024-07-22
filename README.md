@@ -2,7 +2,11 @@
 
 _DisplayEnergy_ is a [_Stardew Valley_](https://www.stardewvalley.net/) mod
 built with [_SMAPI_](https://smapi.io/) mod to permanently display the player's
-current and max energy. This mod supports split-screen.
+current and max energy.
+
+This mod supports split-screen and the position of the energy text is
+customizable in-game when [Generic Mod Config
+Menu](https://www.nexusmods.com/stardewvalley/mods/5098) is installed.
 
 ## How to Install This Mod
 
@@ -16,6 +20,8 @@ This mod is available on
 
 ## Acknowledgements
 
-_DisplayEnergy_ does exactly the same as the
-[EnergyCount](https://www.nexusmods.com/stardewvalley/mods/4272) mod, except
-that it supports split-screen. Thank you _Crystallyne_ for creating that mod.
+_DisplayEnergy_ was based off the
+[EnergyCount](https://www.nexusmods.com/stardewvalley/mods/4272) mod, thank you
+_Crystallyne_ for creating that mod. I decided to create _DisplayEnergy_ when I
+realized _EnergyCount_ didn't support split-screen. Later on, I made the
+position of the energy text customizable.
