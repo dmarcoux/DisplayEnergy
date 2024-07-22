@@ -6,7 +6,7 @@ using StardewModdingAPI.Events;
 using StardewModdingAPI.Utilities;
 using StardewValley;
 
-namespace DisplayEnergy
+namespace dmarcoux.Stardew.DisplayEnergy
 {
     /// <summary>The mod entry point.</summary>
     public class ModEntry : Mod
