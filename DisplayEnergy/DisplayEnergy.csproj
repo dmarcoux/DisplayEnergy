@@ -3,6 +3,7 @@
     <Version>1.0.0</Version>
     <RootNamespace>dmarcoux.Stardew.DisplayEnergy</RootNamespace>
     <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>Latest</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
