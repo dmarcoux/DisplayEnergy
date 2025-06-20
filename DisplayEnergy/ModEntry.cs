@@ -45,7 +45,7 @@ namespace dmarcoux.Stardew.DisplayEnergy
                 energyTextOffset = energyTextOffset with { X = x + 50 };
             }
 
-            if (!Game1.eventUp)
+            if (!Game1.eventUp && !Game1.game1.takingMapScreenshot)
             {
                 Game1.spriteBatch.DrawString(Game1.dialogueFont, $"{(int)Game1.player.Stamina}/{Game1.player.maxStamina}", new Vector2(Game1.graphics.GraphicsDevice.Viewport.GetTitleSafeArea().Right - energyTextOffset.X, Game1.graphics.GraphicsDevice.Viewport.GetTitleSafeArea().Bottom - energyTextOffset.Y), Color.White);
             }
