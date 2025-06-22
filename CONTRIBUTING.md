@@ -110,7 +110,7 @@ just build
 4. Create a release with [_GitHub CLI_](https://cli.github.com/):
 
 ```bash
-VERSION=$(cat DisplayEnergy/manifest.json | jq --raw-output '.Version') gh release create $VERSION "DisplayEnergy/bin/Debug/net6.0/DisplayEnergy $VERSION.zip"
+VERSION=$(jq --raw-output '.Version' DisplayEnergy/manifest.json); gh release create "$VERSION" "DisplayEnergy/bin/Debug/net6.0/DisplayEnergy $VERSION.zip" --title="$VERSION"
 ```
 
 5. Download the ZIP archive _DisplayEnergy.VERSION_NUMBER.zip_ from the new release and upload it to [ModDrop](https://www.moddrop.com/stardew-valley/mods/1087175-displayenergy) / [NexusMods](https://www.nexusmods.com/stardewvalley/mods/10662).
