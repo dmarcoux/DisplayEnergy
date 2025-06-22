@@ -1,7 +1,7 @@
 {
   "Name": "DisplayEnergy",
   "Author": "dmarcoux",
-  "Version": "1.1.0",
+  "Version": "1.1.1",
   "Description": "Permanently display the player's current and max energy. Supports split-screen.",
   "UniqueID": "dmarcoux.DisplayEnergy",
   "EntryDll": "DisplayEnergy.dll",
