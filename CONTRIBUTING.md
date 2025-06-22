@@ -102,12 +102,15 @@ just build
 
 1. Update the [semantic version](https://semver.org/) in the [mod manifest](./DisplayEnergy/manifest.json) and the [project file](./DisplayEnergy/DisplayEnergy.csproj).
 
-2. Push all changes.
+2. Build the project with `just build`. Be sure to have Stardew Valley and SMAPI
+   installed locally.
 
-3. Create a release with [_GitHub CLI_](https://cli.github.com/):
+3. Push all changes.
+
+4. Create a release with [_GitHub CLI_](https://cli.github.com/):
 
 ```bash
 VERSION=$(cat DisplayEnergy/manifest.json | jq --raw-output '.Version') gh release create $VERSION "DisplayEnergy/bin/Debug/net6.0/DisplayEnergy $VERSION.zip"
 ```
 
-4. Download the ZIP archive _DisplayEnergy.VERSION_NUMBER.zip_ from the new release and upload it to [ModDrop](https://www.moddrop.com/stardew-valley/mods/1087175-displayenergy) / [NexusMods](https://www.nexusmods.com/stardewvalley/mods/10662).
+5. Download the ZIP archive _DisplayEnergy.VERSION_NUMBER.zip_ from the new release and upload it to [ModDrop](https://www.moddrop.com/stardew-valley/mods/1087175-displayenergy) / [NexusMods](https://www.nexusmods.com/stardewvalley/mods/10662).
