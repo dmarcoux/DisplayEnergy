@@ -11,10 +11,10 @@ any GUI from an IDE like _Visual Studio_.
 mkdir DisplayEnergy && cd DisplayEnergy
 ```
 
-2. Spin up the development environment:
+2. Set up the development environment:
 
 ```bash
-nix develop
+mise install
 ```
 
 3. Create a solution:
@@ -50,17 +50,16 @@ touch DisplayEnergy/ModEntry.cs DisplayEnergy/manifest.json
 # Development Environment
 
 Reproducible development environment for .NET projects which relies on
-[Nix](https://github.com/NixOS/nix) [Flakes](https://nixos.wiki/wiki/Flakes),
-a purely functional and cross-platform package manager.
+[Mise](https://mise.jdx.dev/).
 
 **Install Steam and Stardew Valley**
 
 On NixOS, add `programs.steam.enable = true;` to NixOS' configuration.
 
-**Start development environment**
+**Set up development environment**
 
 ```bash
-nix develop
+mise install
 ```
 
 **Once inside the development environment...**
